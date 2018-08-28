@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.view.View;
+import android.content.Intent;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.content.Intent;
@@ -24,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
         boton.setOnClickListener (new View.OnClickListener() {
             public void onClick(View view) {
-            Usuario user = new Usuario(nombre.getText() .toString(), apellido.getText().toString(), edad.getText().toString());
+                Intent intent = new Intent(MainActivity.this, Main2_Activity.class);
+            Usuario usuario = new Usuario(nombre.getText() .toString(), apellido.getText().toString(), edad.getText().toString());
             intent.putExtra("usuario", usuario);
             startActivity(intent);
             }

@@ -8,4 +8,6 @@
     tools:context=".Main2_Activity"
     tools:showIn="@layout/activity_main2_">
 
+
+
 </android.support.constraint.ConstraintLayout>
