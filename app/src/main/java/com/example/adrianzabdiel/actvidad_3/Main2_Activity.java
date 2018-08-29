@@ -22,8 +22,14 @@ public class Main2_Activity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         Usuario usuario= extras.getParcelable("usuario");
         if(usuario != null)
-            (datos.setText (String.format(usuario.N(), usuario.A(), usuario.E())
-            ));
+        {
+            TextView nombre = (TextView)findViewById(R.id.name);
+            nombre.setText(usuario.nombre);
+            TextView apellido = (TextView)findViewById(R.id.lastname);
+            nombre.setText(usuario.apellido);
+            TextView edad = (TextView)findViewById(R.id.age);
+            nombre.setText(usuario.edad);
+        }
 
     }
 

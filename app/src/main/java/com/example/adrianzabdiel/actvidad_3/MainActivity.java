@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final EditText nombre= (EditText) findViewById(R.id.editText);
-        final EditText apellido= (EditText) findViewById(R.id.editText2);
+        final EditText nombre= (EditText) findViewById(R.id.t1);
+        final EditText apellido= (EditText) findViewById(R.id.t2);
         final EditText edad= (EditText) findViewById(R.id.editText4);
         Button boton = (Button) findViewById(R.id.button);
 

@@ -5,9 +5,9 @@ import android.os.Parcelable;
 
 
 public class Usuario implements Parcelable {
-    private String nombre;
-    private String apellido;
-    private String edad;
+    public String nombre;
+    public String apellido;
+    public String edad;
 
     public Usuario(String nombre, String apellido, String edad) {
         this.nombre = nombre;
