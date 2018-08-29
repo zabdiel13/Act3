@@ -26,9 +26,9 @@ public class Main2_Activity extends AppCompatActivity {
             TextView nombre = (TextView)findViewById(R.id.name);
             nombre.setText(usuario.nombre);
             TextView apellido = (TextView)findViewById(R.id.lastname);
-            nombre.setText(usuario.apellido);
+            apellido.setText(usuario.apellido);
             TextView edad = (TextView)findViewById(R.id.age);
-            nombre.setText(usuario.edad);
+            edad.setText(usuario.edad);
         }
 
     }
