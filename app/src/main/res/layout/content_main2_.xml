@@ -9,6 +9,13 @@
     tools:context=".Main2_Activity"
     tools:showIn="@layout/activity_main2_">
 
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.Widget.TextView" />
+
 
     <TextView
         android:id="@+id/lastname"
@@ -18,6 +25,7 @@
         android:textAppearance="@android:style/TextAppearance.Widget.TextView"
         android:visibility="visible"/>
 
+
     <TextView
         android:id="@+id/age"
         android:layout_width="match_parent"
@@ -25,10 +33,4 @@
         android:text="TextView"
         android:textAppearance="@android:style/TextAppearance.Widget.TextView"/>
 
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textAppearance="@android:style/TextAppearance.Widget.TextView" />
 </LinearLayout>
